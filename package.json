@@ -1,28 +1,20 @@
 {
-  "name": "staging-app",
+  "name": "chatcord",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Realtime chat app with rooms",
+  "main": "server.js",
   "scripts": {
     "start": "node server",
     "dev": "nodemon server"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/lostmart/staging-app.git"
-  },
-  "keywords": [
-    "onlineboard",
-    "martin",
-    "englishcraft"
-  ],
-  "author": "martin",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/lostmart/staging-app/issues"
-  },
-  "homepage": "https://github.com/lostmart/staging-app#readme",
+  "author": "Brad Traversy",
+  "license": "MIT",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "moment": "^2.24.0",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
   }
 }
